@@ -1,0 +1,314 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <title>WES Conference 2025</title>
+    <link rel="stylesheet" href="css/style.css" />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+  </head>
+  <body>
+    <header class="top-header">
+      <div class="container header-inner">
+        <a class="brand" href="#">WES 2025</a>
+        <nav class="nav">
+          <a href="#about">About</a>
+          <a href="#speakers">Speakers</a>
+          <a href="#schedule">Schedule</a>
+          <a href="#sponsors">Sponsors</a>
+          <a href="#contact">Contact</a>
+        </nav>
+        <div class="actions">
+          <button id="themeToggle" aria-label="Toggle theme">🌙</button>
+          <button id="openRegister" class="btn primary">Register</button>
+        </div>
+      </div>
+    </header>
+
+    <section class="hero" id="top">
+      <div class="hero-overlay"></div>
+      <div class="hero-content container" data-aos="fade-up">
+        <div class="hero-left">
+          <h1>WORLD ENTREPRENEURS SUMMIT</h1>
+          <p class="tag">
+            Champion of the Economic Emancipation of Africa and Emergence
+          </p>
+          <div class="meta">
+            <span>30th - 31st October 2025</span> • <span>Toronto, Canada</span>
+          </div>
+          <div class="hero-ctas">
+            <button id="heroRegister" class="btn primary">Register Now</button>
+            <a class="btn" href="#speakers">View Speakers</a>
+          </div>
+          <div class="countdown" aria-hidden="false">
+            <div><span id="cd-days">0</span><small>Days</small></div>
+            <div><span id="cd-hours">0</span><small>Hours</small></div>
+            <div><span id="cd-mins">0</span><small>Minutes</small></div>
+            <div><span id="cd-secs">0</span><small>Seconds</small></div>
+          </div>
+        </div>
+        <div class="hero-right" data-aos="zoom-in">
+          <img src="images/banner.jpg" alt="Banner" />
+        </div>
+      </div>
+    </section>
+
+    <main>
+      <section id="about" class="section" data-aos="fade-up">
+        <div class="container">
+          <h2>About the Event</h2>
+          <p>
+            The World Entrepreneurs Summit brings global leaders together to
+            champion the economic emancipation of Africa and the emergence of
+            developing countries.
+          </p>
+          <div class="banner-thumb">
+            <img src="images/banner.jpg" alt="Original banner" />
+          </div>
+        </div>
+      </section>
+
+      <section id="speakers" class="section" data-aos="fade-up">
+        <div class="container">
+          <h2>Speakers & Patrons</h2>
+          <div class="speakers-grid">
+            <article class="speaker-card" data-aos="zoom-in">
+              <img
+                src="images/speakers/speaker1.jpg"
+                alt="Bishop Fed Emmanuel EliaBosa"
+              />
+              <h3>Bishop Fed Emmanuel EliaBosa</h3>
+              <p class="role">Patron</p>
+              <button class="btn small view-bio" data-index="1">
+                View Bio
+              </button>
+            </article>
+
+            <article class="speaker-card" data-aos="zoom-in">
+              <img
+                src="images/speakers/speaker2.jpg"
+                alt="Mayor Godwin Rogers"
+              />
+              <h3>Mayor Godwin Rogers</h3>
+              <p class="role">Patron</p>
+              <button class="btn small view-bio" data-index="2">
+                View Bio
+              </button>
+            </article>
+
+            <article class="speaker-card" data-aos="zoom-in">
+              <img src="images/speakers/speaker3.jpg" alt="Dr. David Hughes" />
+              <h3>Dr. David Hughes</h3>
+              <p class="role">Patron</p>
+              <button class="btn small view-bio" data-index="3">
+                View Bio
+              </button>
+            </article>
+
+            <article class="speaker-card" data-aos="zoom-in">
+              <img
+                src="images/speakers/speaker4.jpg"
+                alt="Mrs. Faith Fidelis-Ojah"
+              />
+              <h3>Mrs. Faith Fidelis-Ojah</h3>
+              <p class="role">Organizer</p>
+              <button class="btn small view-bio" data-index="4">
+                View Bio
+              </button>
+            </article>
+
+            <article class="speaker-card" data-aos="zoom-in">
+              <img src="images/speakers/speaker5.jpg" alt="Hon. Linus Okeke" />
+              <h3>Hon. Linus Okeke</h3>
+              <p class="role">Speaker</p>
+              <button class="btn small view-bio" data-index="5">
+                View Bio
+              </button>
+            </article>
+
+            <article class="speaker-card" data-aos="zoom-in">
+              <img
+                src="images/speakers/speaker6.jpg"
+                alt="Engr. Michael Nwosu"
+              />
+              <h3>Engr. Michael Nwosu</h3>
+              <p class="role">Speaker</p>
+              <button class="btn small view-bio" data-index="6">
+                View Bio
+              </button>
+            </article>
+
+            <article class="speaker-card" data-aos="zoom-in">
+              <img src="images/speakers/speaker7.jpg" alt="Prof. Amina Yusuf" />
+              <h3>Prof. Amina Yusuf</h3>
+              <p class="role">Speaker</p>
+              <button class="btn small view-bio" data-index="7">
+                View Bio
+              </button>
+            </article>
+
+            <article class="speaker-card" data-aos="zoom-in">
+              <img src="images/speakers/speaker8.jpg" alt="Judge K. Bello" />
+              <h3>Judge K. Bello</h3>
+              <p class="role">Judge</p>
+              <button class="btn small view-bio" data-index="8">
+                View Bio
+              </button>
+            </article>
+
+            <article class="speaker-card" data-aos="zoom-in">
+              <img src="images/speakers/speaker9.jpg" alt="Mr. Samuel Bright" />
+              <h3>Mr. Samuel Bright</h3>
+              <p class="role">Speaker</p>
+              <button class="btn small view-bio" data-index="9">
+                View Bio
+              </button>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section id="schedule" class="section" data-aos="fade-up">
+        <div class="container">
+          <h2>Schedule</h2>
+          <div class="grid-2">
+            <div>
+              <h3>Day 1 — 30 Oct 2025</h3>
+              <div class="item"><strong>09:00</strong> Opening & Keynote</div>
+              <div class="item">
+                <strong>11:00</strong> Panel: Economic Emancipation
+              </div>
+              <div class="item"><strong>14:00</strong> Workshops</div>
+            </div>
+            <div>
+              <h3>Day 2 — 31 Oct 2025</h3>
+              <div class="item"><strong>09:00</strong> Keynote</div>
+              <div class="item"><strong>11:00</strong> Breakouts</div>
+              <div class="item"><strong>16:00</strong> Closing</div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="sponsors" class="section" data-aos="fade-up">
+        <div class="container">
+          <h2>Sponsors & Partners</h2>
+          <div class="sponsor-grid">
+            <div class="sponsor">
+              <img src="images/sponsors/sponsor1.png" alt="Sponsor 1" />
+            </div>
+            <div class="sponsor">
+              <img src="images/sponsors/sponsor2.png" alt="Sponsor 2" />
+            </div>
+            <div class="sponsor">
+              <img src="images/sponsors/sponsor3.png" alt="Sponsor 3" />
+            </div>
+            <!-- <div class="sponsor"><img src="images/sponsors/sponsor4.png" alt="Sponsor 4"></div>
+          <div class="sponsor"><img src="images/sponsors/sponsor5.png" alt="Sponsor 5"></div>
+          <div class="sponsor"><img src="images/sponsors/sponsor6.png" alt="Sponsor 6"></div> -->
+          </div>
+        </div>
+      </section>
+
+      <section id="contact" class="section" data-aos="fade-up">
+        <div class="container">
+          <h2>Contact</h2>
+          <p>Phone: +1(202)270-1902 | +234 681 3157 8274 | +237 675483739</p>
+          <form id="contactForm" class="contact-form">
+            <div class="form-row">
+              <input name="name" placeholder="Your name" required /><input
+                name="email"
+                placeholder="Email"
+                required
+              />
+            </div>
+            <textarea name="message" placeholder="Message"></textarea>
+            <div>
+              <button class="btn primary" type="submit">Send Message</button>
+            </div>
+          </form>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer" data-aos="fade-up">
+      <div class="container footer-grid">
+        <div>
+          <h3>WES 2025</h3>
+          <p>Championing economic emancipation and emergence.</p>
+        </div>
+        <div>
+          <h4>Quick Links</h4>
+          <ul class="links">
+            <li><a href="#about">About</a></li>
+            <li><a href="#speakers">Speakers</a></li>
+            <li><a href="#schedule">Schedule</a></li>
+          </ul>
+        </div>
+        <div>
+          <h4>Newsletter</h4>
+          <p>Subscribe for updates</p>
+          <form id="newsForm">
+            <input name="email" placeholder="Email" /><button class="btn">
+              Subscribe
+            </button>
+          </form>
+        </div>
+      </div>
+      <div class="footer-bottom container">
+        <p>&copy; 2025 WES Conference. All rights reserved.</p>
+        <a href="#top" class="back-top">Back to top ↑</a>
+      </div>
+    </footer>
+
+    <!-- Register Modal -->
+    <div id="registerModal" class="modal" aria-hidden="true">
+      <div class="modal-inner">
+        <button class="close" aria-label="Close">&times;</button>
+        <h3>Register for WES 2025</h3>
+        <form id="registerForm">
+          <div class="form-row">
+            <input name="name" placeholder="Full name" required />
+            <input
+              name="email"
+              placeholder="Email"
+              required
+            />
+          </div>
+          <div class="form-row">
+            <input name="phone" placeholder="Phone" />
+            <select name="ticket">
+              <option>General</option>
+              <option>VIP</option>
+              <option>Virtual</option>
+            </select>
+          </div>
+          <div>
+            <button class="btn primary" type="submit">
+              Complete Registration
+            </button>
+          </div>
+        </form>
+      </div>
+    </div>
+
+    <!-- Bio Modal -->
+    <div id="bioModal" class="modal" aria-hidden="true">
+      <div class="modal-inner bio">
+        <button class="close" aria-label="Close">&times;</button>
+        <div class="bio-left">
+          <h3 id="bioName">Name</h3>
+          <p id="bioTitle">Title</p>
+          <p id="bioText">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer
+            posuere erat a ante.
+          </p>
+        </div>
+        <div class="bio-right"><img id="bioImg" src="" alt="Speaker" /></div>
+      </div>
+    </div>
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="js/script.js"></script>
+  </body>
+</html>
