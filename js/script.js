@@ -68,7 +68,7 @@ document.querySelectorAll(".view-bio").forEach((btn) => {
     document.getElementById("bioName").textContent = name;
     document.getElementById("bioTitle").textContent = role;
     document.getElementById("bioText").textContent =
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent sit amet.";
+      "Improving the GDP and bringing about high rates of employment in a every Nation to champion an emergent economy in all developing countries through an ecosystem of self sustaining entrepreneurs.";
     document.getElementById("bioImg").src = img;
     bioModal.style.display = "flex";
   });
