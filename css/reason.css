@@ -152,16 +152,19 @@
     margin: 20px;
 }
 
-.reason-container .reason-title {
+.reason-title {
     margin: 0;
     font-size: 4.5rem;
     line-height: 65px;
     font-weight: 500;
     color: var(--bg1);
     font-family: "Lora", serif;
+    text-align: center;
+    margin: 2rem auto;
+padding: 0 10rem;
 }
 
-.reason-container .reason-title span{
+.reason-title span{
     color: var(--accent);
 }
 
@@ -289,8 +292,10 @@
         margin-bottom: 5%;
     }
 
-    .reason-container .reason-title {
+.reason-title {
         font-size: 2.5rem;
         line-height: 45px;
+        padding: auto;
+        margin: auto;
     }
 }
