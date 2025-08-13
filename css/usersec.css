@@ -1,0 +1,121 @@
+:root {
+  --bg1: #071426;
+  --bg2: #081f34;
+  --accent: #c79a2b;
+  --muted: #9fb0c0;
+  --light: #ffffff;
+  --card: rgba(255, 255, 255, 0.03);
+}
+
+.stats-section {
+        display: flex;
+        justify-content: center;
+        gap: 65px;
+        padding: 50px 8%;
+        flex-wrap: wrap;
+        background-color: var(--light);
+    }
+
+    .card {
+        background: var(--light);
+        width: 250px;
+        padding: 43px 45px 41px;;
+        border-radius: 8px;
+        box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.08);
+        position: relative;
+        border: 1px solid var(--accent);
+        color: var(--bg1);
+    }
+
+    .card::after {
+        content: "";
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        border-radius: 8px;
+        box-shadow: inset 0px 4px 12px rgba(0, 0, 0, 0.08);
+    }
+
+    .card:hover {
+        transform: translateY(-5px);
+        transition: transform 0.3s ease;
+            background: linear-gradient(90deg, rgba(2, 6, 23, 0.589), rgba(2, 6, 23, 0.488));
+    backdrop-filter: blur(6px);
+    -webkit-backdrop-filter: blur(6px);
+        color: var(--light);
+        box-shadow: 0px 8px 24px rgba(0, 0, 0, 0.1);
+        border: 2px solid var(--accent);
+    }
+
+    /* .card::before {
+        content: "";
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 80px;
+        height: 80px;
+        background-color: #f5f5f5;
+        clip-path: polygon(0 0, 100% 0, 0 100%);
+    } */
+
+    .card h2 {
+        font-size: 2.2rem;
+        margin-bottom: .8rem;
+        font-weight: 900;
+        font-family: "Lora", serif;
+        color: var(--bg1);
+    }
+
+
+
+    .card h2 span {
+        font-weight: normal;
+        display: block;
+        font-size: 2rem;
+        margin-top: -5px;
+    }
+
+    .card p {
+        font-size: 14px;
+        line-height: 1.6;
+        margin-bottom: 15px;
+    }
+
+    .card a {
+        text-decoration: none;
+        color: var(--accent);
+        font-size: 14px;
+        font-weight: bold;
+    }
+
+    .card a:hover {
+        text-decoration: underline;
+    }
+
+    /* Responsive */
+    @media (max-width: 900px) {
+        .stats-section{
+            gap: 1.5rem;
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+        }
+
+        .card {
+            width: 100%;
+        }
+    }
+
+    @media (max-width: 768px) {
+        .stats-section {
+            flex-direction: column;
+            align-items: center;
+        }
+    }
+
+    @media (max-width: 600px) {
+        .stats-section{
+            grid-template-columns: 1fr;
+        }
+    }

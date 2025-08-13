@@ -30,15 +30,21 @@ themeBtn.addEventListener("click", () => {
   localStorage.setItem("wes-theme", isLight ? "light" : "dark");
 });
 
+// Mobile menu toggle
+
 // Modals
 const registerModal = document.getElementById("registerModal");
 const bioModal = document.getElementById("bioModal");
 const openRegister = document.getElementById("openRegister");
 const heroRegister = document.getElementById("heroRegister");
+const clickRegister = document.getElementById("clickRegister");
 openRegister.addEventListener("click", () => {
   registerModal.style.display = "flex";
 });
 heroRegister.addEventListener("click", () => {
+  registerModal.style.display = "flex";
+});
+clickRegister.addEventListener("click", () => {
   registerModal.style.display = "flex";
 });
 document.querySelectorAll(".modal .close").forEach((b) =>

@@ -1,0 +1,54 @@
+partnership-section{
+    padding: 50px 8%;
+}
+
+.carousel-container {
+  width: 100%;
+  overflow: hidden;
+  padding: 20px 0;
+  display: flex;
+  justify-content: center;
+}
+
+.carousel-track {
+  display: flex;
+  gap: 1.5rem;
+  animation: scroll 20s linear infinite;
+}
+
+.carousel-slide {
+  flex: 0 0 auto;
+  width: 180px;
+  height: 80px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+    background: var(--light);
+    border-radius: 8px;
+    box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1);
+    border: 1px solid #c79a2b;
+    -webkit-backdrop-filter: blur(6px);
+    backdrop-filter: blur(6px);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    padding: 20px auto;
+}
+
+.carousel-slide img {
+  width: 120px;
+  height: auto;
+  filter: grayscale(100%);
+  transition: filter 0.3s ease;
+}
+
+.carousel-slide img:hover {
+  filter: grayscale(0%);
+}
+
+@keyframes scroll {
+  from {
+    transform: translateX(0);
+  }
+  to {
+    transform: translateX(-50%);
+  }
+}
