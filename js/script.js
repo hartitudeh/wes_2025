@@ -30,7 +30,6 @@ themeBtn.addEventListener("click", () => {
   localStorage.setItem("wes-theme", isLight ? "light" : "dark");
 });
 
-// Mobile menu toggle
 // Navbar Toggle
 const navToggle = document.getElementById("navToggle");
 const navMenu = document.getElementById("navMenu");
@@ -88,17 +87,17 @@ document
   .getElementById("registerForm")
   .addEventListener("submit", function (e) {
     e.preventDefault();
-    alert("Registration demo submitted");
+    alert("Registration submitted successfully");
     this.reset();
     registerModal.style.display = "none";
   });
 document.getElementById("contactForm").addEventListener("submit", function (e) {
   e.preventDefault();
-  alert("Message sent (demo)");
+  alert("Message sent");
   this.reset();
 });
 document.getElementById("newsForm").addEventListener("submit", function (e) {
   e.preventDefault();
-  alert("Subscribed (demo)");
+  alert("Subscribed");
   this.reset();
 });

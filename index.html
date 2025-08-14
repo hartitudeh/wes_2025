@@ -10,6 +10,7 @@
     <link rel="stylesheet" href="css/carousel.css" />
     <link rel="stylesheet" href="css/reason.css" />
     <link rel="stylesheet" href="css/nav.css" />
+    <link rel="stylesheet" href="css/vision.css" />
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css">
     <script src="js/carousel.js" defer ></script>
@@ -49,7 +50,7 @@
     <nav class="nav" id="navMenu">
       <a href="#about">About</a>
       <a href="#speakers">Speakers</a>
-      <a href="#schedule">Schedule</a>
+      <a href="#reason">Reasons</a>
       <a href="#sponsors">Sponsors</a>
       <a href="#contact">Contact</a>
       <hr>
@@ -119,7 +120,7 @@ ECONOMY in every country.
     <!-- User -->
 
     <!-- Abount Event -->
-     <section class="event-section">
+     <section id="about" class="event-section">
     <div class="event-image">
                     <img src="images/banner.jpg" alt="Original banner" />
 
@@ -169,7 +170,7 @@ universities in Cameroon, USA and beyond.</p>
     <!-- Abount Event -->
 
     <!-- Reason for the event -->
-     <section class="reason-wes">
+     <section id="reason" class="reason-wes">
 <h2 class="reason-title"><span>9 Reasons To Register </span> for
 The World Entrepreneur Summit</h2>
 <div class="reason-container container1">
@@ -402,7 +403,68 @@ The World Entrepreneur Summit</h2>
         </div>
       </section>
 
-      <section id="schedule" class="section" data-aos="fade-up">
+      <!-- Mission and vision statement -->
+
+        <section id="vismisval" class="vismisval-section">
+  <div class="container">
+    <h2 data-aos="fade-up">About WES 2025</h2>
+    <div class="vismisval-grid">
+      <div class="vismisval-card" data-aos="fade-right" data-aos-delay="100">
+        <div class="icon">🌍</div>
+        <h3>Our Vision</h3>
+        <p>Improving the GDP and bringing
+about high rates of employment in
+a
+every Nation to champion an
+emergent economy in all developing
+countries through an ecosystem of
+self sustaining entrepreneurs.</p>
+      </div>
+
+      <div class="vismisval-card" data-aos="fade-up" data-aos-delay="200">
+        <div class="icon">🎯</div>
+        <h3>Our Mission</h3>
+        <p>Modelling the Values and
+potentials of entrepreneurs
+through team spirit to see
+transformational growth in all our
+trainees impacting their
+communities</p>
+      </div>
+
+      <div class="vismisval-card" data-aos="fade-left" data-aos-delay="300">
+        <div class="icon">💡</div>
+        <h3>Core Values</h3>
+        <ul>
+          <li><p></p> Bringing to the Lamplight the ever
+dying Visions of great entrepreneurs
+around the world.</p></li>
+          <li><p>Lasting Impact on the World's
+economy through full display of
+hinden potentials in entrepreneur.</p></li>
+          <li><p>Establishing a thousand self
+employed citizens across the globe
+annually. Thus reducing the high rate
+of unemployment in different
+countries.</p></li>
+          <li><p>Growing globally through unity and
+our mutual commitments to each
+other's success and well-bein.</p></li>
+          <li><p>Helping entrepreneurs achieve their
+goals through life- enhancing
+connections globally.</p></li>
+          <li><p>Giving Trained Entrepreneurs our
+accredited Certificates that should
+back them up and boost their various
+businesse.</p></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</section>
+      <!-- Mission and vision statement -->
+
+      <!-- <section id="schedule" class="section" data-aos="fade-up">
         <div class="container">
           <h2>Schedule</h2>
           <div class="grid-2">
@@ -422,11 +484,10 @@ The World Entrepreneur Summit</h2>
             </div>
           </div>
         </div>
-      </section>
+      </section> -->
 
       <section id="sponsors" class="section" data-aos="fade-up">
         <div class="container">
-          <h2>Sponsors & Partners</h2>
           <div class="sponsor-grid">
             <div class="sponsor">
               <img src="images/sponsors/sponsor1.png" alt="Sponsor 1" />
@@ -437,8 +498,8 @@ The World Entrepreneur Summit</h2>
             <div class="sponsor">
               <img src="images/sponsors/sponsor3.png" alt="Sponsor 3" />
             </div>
-            <!-- <div class="sponsor"><img src="images/sponsors/sponsor4.png" alt="Sponsor 4"></div>
-          <div class="sponsor"><img src="images/sponsors/sponsor5.png" alt="Sponsor 5"></div>
+             <div class="sponsor"><img src="images/sponsors/sponsor4.png" alt="Sponsor 4"></div>
+          <!-- <div class="sponsor"><img src="images/sponsors/sponsor5.png" alt="Sponsor 5"></div>
           <div class="sponsor"><img src="images/sponsors/sponsor6.png" alt="Sponsor 6"></div> -->
           </div>
         </div>
@@ -447,7 +508,7 @@ The World Entrepreneur Summit</h2>
       <section id="contact" class="section" data-aos="fade-up">
         <div class="container">
           <h2>Contact</h2>
-          <p>Phone: +1(202)270-1902 | +234 681 3157 8274 | +237 675483739</p>
+          <p>Phone: +1(202)270-1902 | +234 681 3157 8274 | +237 675483739</p> <br>
           <form id="contactForm" class="contact-form">
             <div class="form-row">
               <input name="name" placeholder="Your name" required /><input
@@ -522,7 +583,7 @@ The World Entrepreneur Summit</h2>
      </section>
     <!-- Partnership section -->
 
-    <footer class="site-footer" data-aos="fade-up">
+    <!-- <footer class="site-footer" data-aos="fade-up">
       <div class="container footer-grid">
         <div>
           <h3>WES 2025</h3>
@@ -547,10 +608,55 @@ The World Entrepreneur Summit</h2>
         </div>
       </div>
       <div class="footer-bottom container">
-        <p>&copy; 2025 WES Conference. All rights reserved.</p>
+        <p>&copy; 2025 WES Conference. All rights reserved. Made With ❤️ By <a rel="noopener" href="https://hartitudeh.vercel.app" target="_blank" style="color: var(--accent); text-decoration: none;">Hartitudeh Tech</a> </p>
         <a href="#top" class="back-top">Back to top ↑</a>
       </div>
-    </footer>
+    </footer> -->
+
+    <footer class="site-footer" data-aos="fade-up">
+  <div class="container footer-grid">
+    <!-- Brand -->
+    <div class="footer-brand">
+      <h3>WES 2025</h3>
+      <p>Championing economic emancipation and emergence.</p>
+      <div class="social-links">
+        <a href="#"><i class="fab fa-facebook-f"></i></a>
+        <a href="#"><i class="fab fa-twitter"></i></a>
+        <a href="#"><i class="fab fa-linkedin-in"></i></a>
+      </div>
+    </div>
+
+    <!-- Quick Links -->
+    <div class="footer-links">
+      <h4>Quick Links</h4>
+      <ul>
+        <li><a href="#about">About</a></li>
+        <li><a href="#speakers">Speakers</a></li>
+        <li><a href="#reason">Reason</a></li>
+      </ul>
+    </div>
+
+    <!-- Newsletter -->
+    <div class="footer-newsletter">
+      <h4>Newsletter</h4>
+      <p>Subscribe for updates</p>
+      <form id="newsForm">
+        <input name="email" placeholder="Enter your email" type="email" required />
+        <button class="btn">Subscribe</button>
+      </form>
+    </div>
+  </div>
+
+  <!-- Bottom -->
+  <div class="footer-bottom container">
+    <p>
+      &copy; 2025 WES Conference. All rights reserved.
+      Made with ❤️ by
+      <a rel="noopener" href="https://hartitudeh.vercel.app" target="_blank">Hartitudeh Tech</a>
+    </p>
+    <a href="#top" class="back-top">↑ Back to top</a>
+  </div>
+</footer>
 
     <!-- Register Modal -->
     <div id="registerModal" class="modal" aria-hidden="true">
