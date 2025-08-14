@@ -357,7 +357,6 @@ h1 {
   cursor: pointer;
 }
 .modal .bioClose {
-  
   position:relative;
   top: -107px;
   left: -4px;
@@ -366,6 +365,10 @@ h1 {
   display: flex;
   gap: 1rem;
   align-items: center;
+}
+
+.bio-inner_cont{
+  display: flex;
 }
 
 .bio-left h3 {
@@ -515,6 +518,16 @@ p.bioText {
   .countdown div span{
     font-size: .8rem;
   }
+
+  .modal .bioClose {
+  position:relative;
+  top: 0px;
+  left: 0px;
+}
+
+.bio-inner_cont{
+  flex-direction: column-reverse;
+}
 }
 
 @media (max-width: 400px) {
