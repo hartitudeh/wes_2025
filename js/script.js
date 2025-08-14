@@ -31,6 +31,15 @@ themeBtn.addEventListener("click", () => {
 });
 
 // Mobile menu toggle
+// Navbar Toggle
+const navToggle = document.getElementById("navToggle");
+const navMenu = document.getElementById("navMenu");
+
+navToggle.addEventListener("click", () => {
+  navMenu.classList.toggle("open");
+  navToggle.classList.toggle("open");
+});
+
 
 // Modals
 const registerModal = document.getElementById("registerModal");

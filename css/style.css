@@ -28,7 +28,7 @@ body {
   max-width: 1200px;
   margin: 0 auto;
 }
-.top-header {
+/* .top-header {
   position: fixed;
   top: 0;
   left: 0;
@@ -63,7 +63,9 @@ body {
   display: flex;
   gap: 0.6rem;
   align-items: center;
-}
+} */
+
+
 .btn {
   padding: 0.6rem 0.9rem;
   border-radius: 8px;
@@ -352,11 +354,37 @@ h1 {
   font-size: 1.6rem;
   cursor: pointer;
 }
+.modal .bioClose {
+  
+  position:relative;
+  top: -107px;
+  left: -4px;
+}
 .bio {
   display: flex;
   gap: 1rem;
   align-items: center;
 }
+
+.bio-left h3 {
+  color: var(--accent);
+  font-family: "Lora", "serif";
+  margin-bottom: .2rem;
+  text-align: center;
+  font-weight: 900;
+  font-size: 2.2rem;
+} 
+
+p.bioText {
+  color: var(--muted) !important;
+  font-size: 1.2rem !important;
+  line-height: 1.6 !important;
+  margin-top: 0.5rem !important;
+  text-align: justify !important;
+  margin-bottom: 1.5rem !important;
+}
+
+
 .bio-right img {
   width: 220px;
   height: 220px;

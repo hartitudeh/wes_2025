@@ -42,7 +42,7 @@
     }
 
     .event-content p {
-        font-size: 16px;
+        font-size: .9rem;
         color: var(--light);
         margin-bottom: 25px;
         line-height: 1.6;
