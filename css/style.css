@@ -201,6 +201,7 @@ h1 {
   background: var(--card);
   padding: 1rem;
   border-radius: 12px;
+  border: 2px solid var(--accent);
 }
 .speaker-card img {
   width: 140px;
